@@ -1,3 +1,8 @@
+"""ELLI Lightweight Cryptography Demonstration
+
+This script demonstrates a DH Key Exchange and Public Key Signing using Elliptic Curves between an RFID reader and tag.
+"""
+
 from os import urandom
 from eccsnacks.curve25519 import scalarmult, scalarmult_base
 from sys import exit
@@ -9,6 +14,7 @@ from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from cryptography.fernet import Fernet
 
+# Encrypts and decrypts data with AES given a key
 def encrypt(input_key, message, salt, is_encryption_mode=True):
     # Use the shared key to derive a key
     shared_master_key = binascii.hexlify(input_key).encode()
