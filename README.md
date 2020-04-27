@@ -1,13 +1,16 @@
 # CSN11117
 Code for the Edinburgh Napier University eSecurity MSc module.
 
-## elli.py
-A short Python program that illustrates use of Elliptic Curve Cryptography for ECDH key exchange and anti-counterfeiting in RFID systems.
-
-### Requirements
+## Requirements
 Install Python 2.7 and the following `pip` modules:
 * `eccsnacks`
 * `cryptography`
+
+## elli.py
+A short Python program that illustrates use of Elliptic Curve Cryptography for ECDH key exchange and anti-counterfeiting in RFID systems.
+
+## dh_benchmark.py
+Benchmarks our ELLI key generation implementation against various key sizes of Traditional DH methods.
 
 ### References
 Code from the following sources has been used for inspiration:
