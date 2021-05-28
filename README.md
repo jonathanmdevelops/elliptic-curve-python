@@ -1,5 +1,5 @@
 # elliptic-curve-python
-Code for the Edinburgh Napier University eSecurity MSc module (CSN11117).
+Python implementation of Elliptic Curve Cryptography (ECC).
 
 ## Requirements
 Install Python 2.7 and the following `pip` modules:
@@ -7,7 +7,7 @@ Install Python 2.7 and the following `pip` modules:
 * `cryptography`
 
 ## elli.py
-A short Python program that illustrates use of Elliptic Curve Cryptography for ECDH key exchange and anti-counterfeiting in RFID systems.
+A short Python program that illustrates use of ECC for ECDH key exchange and anti-counterfeiting in RFID systems.
 
 ## dh_benchmark.py
 Benchmarks our ELLI key generation implementation against various key sizes of Traditional DH methods.
