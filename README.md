@@ -1,5 +1,5 @@
-# CSN11117
-Code for the Edinburgh Napier University eSecurity MSc module.
+# elliptic-curve-python
+Code for the Edinburgh Napier University eSecurity MSc module (CSN11117).
 
 ## Requirements
 Install Python 2.7 and the following `pip` modules:
